@@ -1,0 +1,261 @@
+
+/*======Sidebar========*/
+.nav__icon_comment_active{
+    background-image: url('../img/sidebar/main_icon_hover.png');
+}
+
+/*====================<!-- хлебные крошки -->============================*/
+.breadcrumbs {
+    margin-bottom: 25px;
+}
+.breadcrumbs__list {
+    padding-top: 30px;
+    
+}
+.breadcrumbs__item {
+    display: inline-block;
+    text-align: left;
+}
+.breadcrumbs__item:after {
+    content: "/";
+    display: inline-block;
+    color: #262424;
+    opacity: 0.8;
+  }
+  
+  .breadcrumbs__item:last-child:after {
+    display: none;
+  }
+.breadcrumbs__item-link {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+    color: #3a5bbf;
+    opacity: 0.8;
+}
+.breadcrumbs__item-link_active {
+    text-decoration: none;
+    color: #262424;
+}
+
+/*========<!-- основная часть -->===================*/
+
+
+.reviews__title{
+ margin-bottom: 40px;
+}
+.page-conten {
+}
+.reviews {
+}
+.title {
+}
+.reviews__list {
+}
+.reviews__item {
+    margin-bottom: 27px;
+}
+.clearfix {
+}
+.reviews__item--wrap {
+    border-bottom: 2px solid  #f4f4f4;
+    display: inline-block;
+    padding-bottom: 22px;
+}
+.reviews__item:last-child .reviews__item--wrap{
+    border-bottom:none;
+}
+.reviews__avatar {
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+    
+}
+.reviews__avatar-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    
+    
+}
+.reviews__text {
+    float: left;
+    width: 697px;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 300;
+    color: #262424;
+}
+.reviews__data {
+    font-size: 14px;
+    color: #656464;
+}
+.reviews__name {
+    font-weight: 700;
+}
+.reviews__content {
+    line-height: 166%;
+}
+
+
+/*===================support_info======================================*/
+.support{
+    background-color: #76b46f;
+    margin-bottom: 58px;
+}
+.support__conteiner {
+}
+
+.support__info{
+    width: 622px;
+    margin: 0 auto;
+    padding: 48px 0 44px;
+}
+.support__info__text {
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+   
+}
+
+.support__info__text a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+    
+}
+/*=========================Forms===================*/
+::-webkit-input-placeholder {color: rgba(38, 36, 36, 0.5)}
+::-moz-placeholder          {color: rgba(38, 36, 36, 0.5)}/* Firefox 19+ */
+:-moz-placeholder           {color: rgba(38, 36, 36, 0.5)}/* Firefox 18- */
+:-ms-input-placeholder      {color: rgba(38, 36, 36, 0.5)}
+
+.forms {
+    margin-bottom: 50px;
+}
+.forms__conteiner {
+}
+.forms__review {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 51px 70px 49px 69px;
+}
+.forms__title { 
+    margin-bottom: 15px;
+}
+.form-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+.first_Name {
+    flex: 50%;    
+}
+.name_btn {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;    
+    line-height: 250%; 
+    text-align: left;
+}
+.forms_field {
+    width: 269px;
+    
+    
+}
+.form_text{
+    border: none;
+    background-color: #ffffff; 
+    border-radius: 3px;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 300%;
+    color: #262424;
+}
+.form_text:hover {
+    background-color: #fff;  
+    border: solid 1px #5972b1;
+}
+.form_text:focus {
+    background-color: #fff;  
+    outline: solid 1px #5972b1;
+}
+
+.field_Vk {
+    flex: 50%;
+}
+.form-textarea{
+    margin-bottom: 20px;
+}
+
+.textarea{
+    width: 561px;
+    height: 90px;
+    background-color: #fff;    
+}
+textarea.textareat:focus{
+    border: solid 1px #5972b1;
+}
+
+.radio_btn_wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    color: #262424;
+}
+.radio_wrap {
+    width: 50%;
+    text-align: left;
+}
+.name_radio {
+    
+}
+.radio_text {
+    line-height: 250%;
+}
+.radio_text_checked {
+    color: #3a5bbf;
+}
+.btn_wrap {
+    width: 50%;
+}
+.button_submit{
+    text-align: right;
+}
+.Submit_button {
+}
+
+.button {
+    width: 154px;
+    height: 45px;
+    background-color: #5972b1;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    text-align: center;
+    cursor:pointer;
+}
+.Submit_button__img{
+    width: 15px;
+    height: 14px;
+    vertical-align:sub;
+}
+
+    
+
+
+

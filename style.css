@@ -20,7 +20,8 @@ html, body{
 }
 body{
     font-family: 'Roboto', Arial, sans-serif;
-    color: #262424;  
+    color: #262424;
+    margin: 0;  
 }
 .wrapper {
     min-width: 1100px;
@@ -41,9 +42,9 @@ body{
 }
 
 [class*="conteiner"]{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
   }
  
   .header__left,
@@ -116,7 +117,8 @@ ul {
     width: 23px;
     height: 18px;
 }
-.nav__link:hover .nav__icon_main {
+.nav__link:hover .nav__icon_main,
+.nav__icon_main_active{
     background-image: url('img/sidebar/main_icon_hover.png');
 }
 .nav__link:hover .nav__icon_comment {
@@ -136,7 +138,12 @@ ul {
     letter-spacing: 2.4px;
     font-stretch: normal;
     color: #5972b1;
+    max-width: 120px;
 }
+.nav__text_active{
+    color: #262424;
+}
+
 .nav__text:hover{
     color: #262424;
 }
@@ -228,7 +235,7 @@ ul {
     color: #252525;
     object-fit: contain;
 }
-/*========section news========*/
+/*========section news  &  reviews========*/
 
 .news__title {
     margin-bottom: 72px;
@@ -349,6 +356,7 @@ ul {
     letter-spacing: normal;
     text-align: left;
     color: #fff;
+    overflow: hidden;
 }
 .bold-text {
     font-weight: 700;
