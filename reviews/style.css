@@ -146,7 +146,7 @@
     width: 700px;
     margin: 0 auto;
     background-color: #f4f4f4;
-    padding: 51px 70px 49px 69px;
+    padding: 51px 70px 40px 69px;
 }
 .forms__title { 
     margin-bottom: 15px;
@@ -155,7 +155,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px; 
+    margin-bottom: 11px; 
 }
 .first_Name {
     flex: 50%;    
@@ -164,7 +164,7 @@
     display: block;
     font-size: 14px;
     font-weight: 300;    
-    line-height: 250%; 
+    line-height: 230%; 
     text-align: left;
 }
 .forms_field {
