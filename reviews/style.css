@@ -201,10 +201,8 @@
 .textarea{
     width: 561px;
     height: 90px;
-    background-color: #fff;    
-}
-textarea.textareat:focus{
-    border: solid 1px #5972b1;
+    background-color: #fff; 
+    resize: vertical;   
 }
 
 .radio_btn_wrap {
